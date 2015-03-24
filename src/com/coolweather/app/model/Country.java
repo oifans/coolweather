@@ -4,7 +4,7 @@ public class Country {
 	private int id;
 	private String countryName;
 	private String countryCode;
-	private int cityId;
+	private String cityCode;
 	public int getId() {
 		return id;
 	}
@@ -23,11 +23,11 @@ public class Country {
 	public void setCountryCode(String countryCode) {
 		this.countryCode = countryCode;
 	}
-	public int getCityId() {
-		return cityId;
+	public String getCityCode() {
+		return cityCode;
 	}
-	public void setCityId(int cityId) {
-		this.cityId = cityId;
+	public void setCityCode(String cityCode) {
+		this.cityCode = cityCode;
 	}
 	
 }
